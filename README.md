@@ -8,7 +8,7 @@ Screenshots:
 
 Welcome page:
  
-
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/30887274/216859202-207692ee-9fd5-446b-a1d1-8bbebe679075.png">
 
 
 
