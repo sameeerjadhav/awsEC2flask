@@ -42,4 +42,4 @@ Log in page:
 1.	If not all fields except ‘.txt.’ file are filled, registration page prompts “Some of the fields are missing!”
 2.	Username should be unique. If it matches with the already registered users, web page prompts “User has already registered!”
 
-![image](https://user-images.githubusercontent.com/30887274/216858670-4b71499e-e5c2-42e5-b089-4d0dd1fdfd88.png)
+
