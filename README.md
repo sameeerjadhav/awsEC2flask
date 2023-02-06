@@ -16,7 +16,7 @@ Registration page:
 
 Upon successful log in/registration user details page:
 
- 
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/30887274/216859358-c3586cb1-874c-48ec-aa32-214befa01759.png"> 
 
 Log in page:
 
