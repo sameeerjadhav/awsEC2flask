@@ -10,20 +10,9 @@ Welcome page:
  
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/30887274/216859202-207692ee-9fd5-446b-a1d1-8bbebe679075.png">
 
-
-
-
-
-
-
-
-
-
-
-
 Registration page:
 
- 
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/30887274/216859290-68978464-dfdf-43f5-9c99-b737526f6735.png">
 
 Upon successful log in/registration user details page:
 
