@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+	  <style>
+      a:link {
+         color: greenyellow;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:visited {
+         color: deepskyblue;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:active {
+         color: yellow;
+         background-color: transparent;
+      }
+   </style>
+    <meta charset="UTF-8">  
+    <title>Log in</title>
+  </head>
+  <body bgcolor="#33475b">
+    <div align="center">
+	    <div style="background-color: white;"><h1>Welcome back! please login</h1></div>
+      <br>
+      <form action="/login" method="post" style="background-color:#E6E6FA">
+	      <br>
+	      <label>Username: </label><input type="text" placeholder="Username" name="username" value="{{ request.form.username }}"><br><br>
+	      <label>Password: </label> <input type="password" placeholder="Password" name="password" value="{{ request.form.password }}"><br><br>
+        <input class="btn btn-default" type="submit" value="Login">
+	<br><br></form>
+      {% if message %}
+        <p class="error"><strong>Error:</strong> {{ message }}
+      {% endif %}
+    </div>
+  </body>
+</html>

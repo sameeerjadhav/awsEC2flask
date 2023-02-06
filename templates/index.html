@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+	<style>
+      a:link {
+         color: greenyellow;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:visited {
+         color: deepskyblue;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:active {
+         color: yellow;
+         background-color: transparent;
+      }
+   </style>
+<meta charset="UTF-8">
+<title>welcome page</title>
+</head>
+<body bgcolor=”#33475b">
+<div align="center">
+	<div style="background-color: white;"><h1>Please authenticate!</h1></div>
+	
+	<a href="{{ url_for('login') }}" class="btn btn-primary btn-block btn-large">login</a><br><br>
+  <a href="{{ url_for('registration') }}" class="btn btn-secondary btn-block btn-large">registration</a>
+	
+</div>
+
+</body>
+</html>

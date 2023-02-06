@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> User Registration </title>
+   </head>
+   <body>
+      <div class=”container”>
+         <h1>Please register</h1>
+         <br>
+         <form action='/registration' method='POST'>
+            <input type='text' placeholder='username' name='username' value='{{ request.form.username }}'>
+            <input type='password' placeholder='password' name='password' value='{{ request.form.password }}'>
+            <input type='text' placeholder='firstname' name='firstname' value='{{ request.form.firstname }}'>
+            <input type='text' placeholder='lastname' name='lastname' value='{{ request.form.lastname }}'>
+            <input type='text' placeholder='email' name='email' value='{{ request.form.email }}'>
+            <input type='file' name='textfile'>
+            <input type='submit' value='Register'>
+         </form>
+         {% if message %}
+         <p class='message'><strong>Error:</strong> {{ message }}
+            {% endif %}
+      </div>
+   </body>
+</html>

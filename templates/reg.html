@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      a:link {
+         color: greenyellow;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:visited {
+         color: deepskyblue;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:active {
+         color: yellow;
+         background-color: transparent;
+      }
+   </style>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body bgcolor="#33475b">
+<div align="center">
+    <div style="background-color: white;"><h1>Welcome new user! please register</h1></div>
+    <div>
+        <form action="{{url_for('registration')}}" method="POST" enctype="multipart/form-data" style="background-color:#E6E6FA">
+	    <br>
+            <div>{{ message }}</div><br>
+            <label>User Name : </label><input id="username" name="username" type="text" placeholder="User Name" autocomplete="off"/> <br><br>
+            <label>Password : </label><input id="password" name="password" type="password" placeholder="Password" autocomplete="off"/> <br><br>
+            <label>First Name : </label><input id="firstname" name="firstname" type="text" placeholder="First Name" autocomplete="off"/> <br><br>
+            <label>Last Name : </label><input id="lastname" name="lastname" type="text" placeholder="Last Name" autocomplete="off"/> <br><br>
+            <label>Email : </label><input id="email" name="email" type="text" placeholder="Email" autocomplete="off"/> <br><br>
+            <label>Upload File : </label><input type="file" id="textfile" name="textfile"><br><br>
+            <button id="submit" name="submit">Register</button>
+	    <br><br>
+        </form>
+    </div>
+    <p>Already have an account? Please click <a href="{{url_for('login')}}">here to login</a></p>
+</div>
+</body>
+</html>
